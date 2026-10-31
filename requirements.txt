@@ -1,0 +1,50 @@
+# ============================================================
+# PolyGlot-StreamBaran - متطلبات المشروع
+# المؤلف: Baran Avisat  |  Baranavisat@gmail.com
+# ============================================================
+
+# === محرك التفريغ الصوتي (Speech-to-Text) ===
+openai-whisper>=20231117
+transformers>=4.40.0
+torch>=2.1.0
+torchaudio>=2.1.0
+soundfile>=0.12.1
+librosa>=0.10.1
+
+# === محرك الترجمة والتلخيص الذكي (AI Brain) ===
+google-generativeai>=0.7.0
+groq>=0.5.0
+googletrans==4.0.0-rc1
+
+# === قاعدة البيانات (Supabase) ===
+supabase>=2.5.0
+postgrest>=0.13.0
+python-dotenv>=1.0.0
+
+# === بوت تليجرام (Delivery Layer) ===
+python-telegram-bot>=21.0
+telegram>=0.0.1
+
+# === واجهة الويب (Streamlit Dashboard) ===
+streamlit>=1.33.0
+streamlit-chat>=0.1.1
+streamlit-option-menu>=0.3.12
+
+# === استخراج الصوت من الفيديو ===
+yt-dlp>=2024.4.9
+ffmpeg-python>=0.2.0
+moviepy>=1.0.3
+
+# === أدوات مساعدة ===
+requests>=2.31.0
+aiohttp>=3.9.0
+pydub>=0.25.1
+pysrt>=1.2.0
+pandas>=2.2.0
+rich>=13.7.0
+tqdm>=4.66.0
+python-magic>=0.4.27
+
+# === الاختبارات ===
+pytest>=8.0.0
+pytest-asyncio>=0.23.0

@@ -1,0 +1,70 @@
+# ============================================================
+# PolyGlot-StreamBaran - .gitignore
+# المؤلف: Baran Avisat | Baranavisat@gmail.com
+# ============================================================
+
+# البيئة الافتراضية
+venv/
+env/
+.venv/
+ENV/
+
+# ملفات Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# الاختبارات
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# المتغيرات البيئية الحساسة
+.env
+.env.local
+.env.*.local
+
+# الملفات المؤقتة والنواتج
+temp/
+output/
+logs/
+*.wav
+*.mp3
+*.mp4
+*.srt
+*.txt
+!requirements.txt
+!*.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Hugging Face
+.huggingface/
