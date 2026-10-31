@@ -102,7 +102,7 @@ segments = extractor.split_audio(audio_path, segment_minutes=15)
 ### تبديل نموذج Whisper
 ```env
 # في .env
-WHISPER_MODEL=openai/whisper-large-v3   # للأعلى دقة
+WHISPER_MODEL=openai/whisper-large-v3   # لجودة أفضل (حسب وضوح المدخلات)
 # أو
 WHISPER_MODEL=openai/whisper-base       # للأسرع
 ```
